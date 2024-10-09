@@ -11,15 +11,15 @@ pastel = []
 print ("======== Bem-vindo a Pastelaria Nunes ========")
 print ("======== Aqui está nosso cardápio: \n")
 
-while True:
-    print ("== Escolha quantos ingredientes preferir ==\n")
-    print ("1- Queijo")
-    print ("2- Frango")
-    print ("3- Frango com Queijo")
-    print ("4- Pizza")
-    print ("5- Carne")
+print ("== Escolha quantos ingredientes preferir ==\n")
+print ("1- Queijo")
+print ("2- Frango")
+print ("3- Frango com Queijo")
+print ("4- Pizza")
+print ("5- Carne")
 
-    escolha = input ("\nDigite de 1 a 5 para escolha, ou digite 'sair' quando terminar de escolher: ".lower())
+while True:
+    escolha = input ("Digite de 1 a 5 para escolha, ou digite 'sair' quando terminar de escolher: ".lower())
     if escolha == "sair" :
         print ("Você terminou de escolher !\n")
         break
