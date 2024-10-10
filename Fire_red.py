@@ -1,6 +1,6 @@
 import random
 
-print ("========== Luta Mewtow ==========")
+print ("========== Luta Mewtwo ==========")
 
 #Lista pokémon
 print ("\n===== Pokémon =====")
@@ -30,46 +30,46 @@ while vida_pokemon > 0 and vida_mewtwo > 0 :
 
     if pokemon == "1" : #charizard
         vida_mewtwo -= dano_pokemon
-        print (f"Charizard causou {dano_pokemon} dano em Mewtow, resta {vida_mewtwo} de vida")
+        print (f"Charizard causou {dano_pokemon} dano em Mewtwo, resta {vida_mewtwo} de vida")
         rodada +=1 
         if rodada > 2 :
             vida_pokemon -= dano_mewtwo
-            print (f"Mewtow causou {dano_mewtwo} dano em Charizard, resta {vida_pokemon} de vida")
+            print (f"Mewtwo causou {dano_mewtwo} dano em Charizard, resta {vida_pokemon} de vida")
     elif pokemon == "2" : #Lapras
         vida_mewtwo -= dano_pokemon
-        print (f"Lapras causou {dano_pokemon} dano em Mewtow, resta {vida_mewtwo} de vida")
+        print (f"Lapras causou {dano_pokemon} dano em Mewtwo, resta {vida_mewtwo} de vida")
         rodada +=1
         if rodada > 2 :
             vida_pokemon -=dano_mewtwo
-            print (f"Mewtow causou {dano_mewtwo} dano em Lapras, resta {vida_pokemon} de vida")
+            print (f"Mewtwo causou {dano_mewtwo} dano em Lapras, resta {vida_pokemon} de vida")
     elif pokemon == "3" : #dragonite
         vida_mewtwo -= dano_pokemon
-        print (f"Dragonite causou {dano_pokemon} dano em Mewtow, resta {vida_mewtwo} de vida")
+        print (f"Dragonite causou {dano_pokemon} dano em Mewtwo, resta {vida_mewtwo} de vida")
         rodada +=1
         if rodada > 2 :
             vida_pokemon -= dano_mewtwo
-            print (f"Mewtow causou {dano_mewtwo} dano em Dragonite, resta {vida_pokemon} de vida")
+            print (f"Mewtwo causou {dano_mewtwo} dano em Dragonite, resta {vida_pokemon} de vida")
     elif pokemon == "4" : #Raichu
         vida_mewtwo -= dano_pokemon
-        print (f"Raichu causou {dano_pokemon} dano em Mewtow, resta {vida_mewtwo} de vida")
+        print (f"Raichu causou {dano_pokemon} dano em Mewtwo, resta {vida_mewtwo} de vida")
         rodada +=1
         if rodada > 2 :
             vida_pokemon -= dano_mewtwo
-            print (f"Mewtow causou {dano_mewtwo} dano em Raichu, resta {vida_pokemon}")
+            print (f"Mewtwo causou {dano_mewtwo} dano em Raichu, resta {vida_pokemon}")
     elif pokemon == "5" : #Alakazam
         vida_mewtwo -= dano_pokemon
-        print (f"Alakazam causou {dano_pokemon} dano em Mewtow, resta {vida_mewtwo} de vida")
+        print (f"Alakazam causou {dano_pokemon} dano em Mewtwo, resta {vida_mewtwo} de vida")
         rodada +=1
         if rodada > 2 :
             vida_pokemon -= dano_mewtwo
-            print (f"Mewtow causou {dano_mewtwo} dano em Alakazam, resta {vida_pokemon} de vida")
+            print (f"Mewtwo causou {dano_mewtwo} dano em Alakazam, resta {vida_pokemon} de vida")
     elif pokemon == "6" : #rayquaza
         vida_mewtwo -= dano_pokemon
-        print (f"Rayquaza causou {dano_pokemon} dano em Mewtow, resta {vida_mewtwo} de vida")
+        print (f"Rayquaza causou {dano_pokemon} dano em Mewtwo, resta {vida_mewtwo} de vida")
         rodada +=1
         if rodada > 2 :
             vida_pokemon -= dano_mewtwo
-            print (f"Mewtow causou {dano_mewtwo} dano em Rayquaza, resta {vida_pokemon} de vida")
+            print (f"Mewtwo causou {dano_mewtwo} dano em Rayquaza, resta {vida_pokemon} de vida")
     else:
         print ("Número invalido !")
         break
